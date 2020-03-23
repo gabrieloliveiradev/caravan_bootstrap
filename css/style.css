@@ -11,3 +11,7 @@ body {
 .background-none {
     background-color: transparent !important;
 }
+
+.icone {
+    height: 100px;
+}
