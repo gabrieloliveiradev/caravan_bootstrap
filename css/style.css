@@ -1,5 +1,4 @@
 body {
-    height: 3000px;
     padding-top: 70px;
 }
 
@@ -15,3 +14,21 @@ body {
 .icone {
     height: 100px;
 }
+
+#home-quote {
+    background: url(../img/bg-quote.jpg) center center;
+    background-size: cover;
+}
+
+@media (min-width: 767px) {
+    #home-quote .display-4{
+        font-size: 2.5rem;
+    }/* reduzindo o tamanho da fonte do blockquote quando a tela for menor que 767 pixels */
+    .fixed-top {
+        position: relative;
+    } /*  Fazendo a nav deixar de ser fixa quando a tela fica com menos de 768pixels de largura */
+    /* body {
+        padding:0px;
+    }  zerando o padding do body quando a nav deixa de ser fixa */
+} 
+
